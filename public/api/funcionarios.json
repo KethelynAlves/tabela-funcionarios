@@ -1,0 +1,33 @@
+[
+    {
+        "cpf": "44567812345",
+        "nome": "João da Silva",
+        "cargo": "Analista de Sistemas",
+        "salario": 5000.00
+    },
+    {
+        "cpf": "12345678901",
+        "nome": "Maria Oliveira",
+        "cargo": "Gerente de Projetos",
+        "salario": 7000.00
+    },
+    {
+        "cpf": "98765432100",
+        "nome": "Carlos Pereira",
+        "cargo": "Desenvolvedor Front-end",
+        "salario": 4500.00
+    },
+    {
+        "cpf": "45678912345",
+        "nome": "Ana Costa",
+        "cargo": "Designer Gráfico",
+        "salario": 4000.00
+    },
+    {
+        "cpf": "78912345600",
+        "nome": "Pedro Santos",
+        "cargo": "Analista de Dados",
+        "salario": 5500.00
+    }
+
+]
