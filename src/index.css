@@ -25,7 +25,7 @@ tfoot > tr{
   text-align: center;
   background-color: #5ed4a3;
 }
-.botao{
+button{
   display: inline-block;
   font-weight: 400;
   color:rgb(26, 26, 26);
@@ -40,26 +40,18 @@ tfoot > tr{
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-.remover{
+.excluir{
   color: #fff;
-  background-color: #dc3545;
+  background-color: #a01825;
   border-color: #dc3545;
+  border-radius: 10px;
 }
-.remover:hover{
+.excluir:hover{
   color: #fff;
   background-color: #c82333;
-  border-color: #bd2130;
+  border-color: #801a25;
+  border-radius: 15px;
 }
-.editar{
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-.editar:hover{
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-} 
 .setinhas{
   display: inline-flex;
   padding-left: 8px;

@@ -7,13 +7,11 @@ const TabelaBody = props => (
             <td>{funcionario.nome}</td>
             <td>{funcionario.cargo}</td>
             <td>{funcionario.salario.toFixed(2)}</td>
-            <td>{
-                <button className="excluir"
+            <td><button className="excluir"
                 onClick={() => props.excluirFuncionario(funcionario.cpf)}
                 >
                     Excluir
                 </button>
-                }
             </td>
         </tr>
         ))}
