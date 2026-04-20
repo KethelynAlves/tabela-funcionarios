@@ -1,29 +1,35 @@
 body{
     font: 16px, sans-serif;
+    color: rgb(107, 66, 155);
     margin: 0;
 }
 .tabela{
   border-collapse: collapse;
-  border: 1px solid #ddd;  
+  border: 1px solid #722679;  
   width: calc(100% - 20px);
   margin:20px auto;
 }
 .tabela th, .tabela td{
   padding: 10px 5px;
-  border-bottom: 1px solid #ddd;
+  border: 1px solid #d368c5;
 }
 thead > tr:first-child{
-  background-color: #5ed4a3;
+  color:#fff;
+  background-color: #955ed4;
 }
 thead > tr:last-child{
   text-align: left;
+  color:#fff;
+  background-color: #722679;
 }
 tbody > tr:nth-child(2n-1){
-  background-color: #d3d3d3;
+  color: rgb(29, 8, 53);
+  background-color: #dcafe5;
 }
 tfoot > tr{
   text-align: center;
-  background-color: #5ed4a3;
+  color:#fff;
+  background-color: #955ed4;
 }
 button{
   display: inline-block;
@@ -42,13 +48,13 @@ button{
 }
 .excluir{
   color: #fff;
-  background-color: #a01825;
+  background-color: #a0186c;
   border-color: #dc3545;
   border-radius: 10px;
 }
 .excluir:hover{
   color: #fff;
-  background-color: #c82333;
+  background-color: #c82383;
   border-color: #801a25;
   border-radius: 15px;
 }
